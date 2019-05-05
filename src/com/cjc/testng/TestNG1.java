@@ -97,7 +97,9 @@ public class TestNG1 {
 
   @BeforeClass
   public void maximizebrowser() 
+	  
   {
+	  System.out.println("Maximize browser");
 	  driver.manage().window().maximize();
 	  System.out.println("Maximize browser in beforeClass annotation");
 
