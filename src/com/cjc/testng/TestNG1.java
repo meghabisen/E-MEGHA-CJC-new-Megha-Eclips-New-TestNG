@@ -113,6 +113,7 @@ public class TestNG1 {
   @BeforeTest
   public void welcometomercuryURL() 
   {
+	  System.out.println("enter url");
 	  driver.get("http://newtours.demoaut.com/mercurywelcome.php");
 	  System.out.println("Url open in Beforetest annotation");
   }
