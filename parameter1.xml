@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="Test">
+  <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"></parameter>
+<parameter name ="unm1" value="Suvidyap1"></parameter>
+<parameter name="psd1" value ="P@ssword1"></parameter>
+<parameter name ="unm2" value="Suvidyap2"></parameter>
+<parameter name="psd2" value ="P@ssword2"></parameter>
+<parameter name ="unm3" value="Suvidyap3"></parameter>
+<parameter name="psd3" value ="P@ssword3"></parameter>
+<parameter name ="unm4" value="Suvidyap"></parameter>
+<parameter name="psd4" value ="P@ssword1"></parameter>
+    <classes>
+      <class name="com.cjc.testng.parameter1"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

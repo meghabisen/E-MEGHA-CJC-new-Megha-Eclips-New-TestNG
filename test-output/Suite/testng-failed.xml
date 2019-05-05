@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="psd1" value="P@ssword1"/>
+    <parameter name="psd2" value="P@ssword2"/>
+    <parameter name="psd3" value="P@ssword3"/>
+    <parameter name="unm4" value="Suvidyap"/>
+    <parameter name="psd4" value="P@ssword1"/>
+    <parameter name="unm2" value="Suvidyap2"/>
+    <parameter name="unm3" value="Suvidyap3"/>
+    <parameter name="unm1" value="Suvidyap1"/>
+    <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+    <classes>
+      <class name="com.cjc.testng.parameter1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="user3"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="user2"/>
+          <include name="beforeMethod"/>
+          <include name="user1"/>
+          <include name="user4invalid"/>
+        </methods>
+      </class> <!-- com.cjc.testng.parameter1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
